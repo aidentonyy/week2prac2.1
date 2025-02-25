@@ -1,0 +1,77 @@
+
+/* remove link underlines and change color*/
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Courier New', Courier, monospace;
+    display: inline-block;
+}
+h1{
+    font-size: 2em;
+}
+div{
+    background-color: rgb(255, 255, 255);
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+h1:first-of-type{
+    font-size: 3em;
+    text-align: left;
+    width: 80vw;
+    box-sizing: border-box;
+}
+#date{
+    text-align: right;
+    display: inline-block;
+    width: 10vw;
+    box-sizing: border-box;
+}
+#main-nav li{
+    display: inline-block;
+    padding: 0 10%;
+    font-size: 1.5em;
+    padding-bottom: 2%;
+}
+main{
+    display: inline-block;
+    width: 60vw;
+    padding-right: 10%;
+}
+aside{
+    display: inline-block;
+    width: 10vw;
+    vertical-align:top;
+}
+
+#news-panel h2{
+    width: 100vw;
+    padding-top: 5%;
+}
+
+.story-preview{
+    display: inline-block;
+    padding: 0% 2%;
+    padding-bottom: 5%;
+}
+@media screen and (max-width:768px) {
+    body {
+        background-color: white;
+    }
+    #date{
+        text-align: left;
+        width: 100vw;
+    }
+    aside{
+        display: block;
+        width: 100vw;
+    }
+    main{
+        width: 100vw;
+    }
+}
